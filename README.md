@@ -6,12 +6,13 @@ This webapp was developed from a free-to-use template.
 To fight back with COVID-19, we are offering you an E-commerce UI Kit to sell your Covid Survival Kit."
 
 ## Project Details
-Tools Used
+Tools/Languages Used
 ```bash
+HTML
+SCSS
+JS
 VueJS
-nodemon
 lint
-jquery
 ```
 Installation
 ```bash
@@ -40,4 +41,5 @@ Design published by The Shopify Ninja in Design Freebies
 https://ui8.net/the-shopify-ninja-1f8e09/products/ecommerce-ui-kit-to-fight-against-covid19
 ```
 Development
+
 [**Jeffrey Helder | Just Some Guy**](http://www.jeffreyhelder.com/)

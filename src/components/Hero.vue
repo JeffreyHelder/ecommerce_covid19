@@ -41,7 +41,7 @@ export default {
       overflow: hidden;
       padding-top: 0 !important;
       .message{
-        margin-top: 60px !important;
+        margin-top: 80px !important;
         width: 90% !important;
         h1{
           font-size: 2rem !important;
@@ -72,7 +72,6 @@ export default {
   width: 100%;
   height: 100%;
   background-color: #FFF7F5;
-  transform: translateY(-11vH);
 
   .container{
     display: flex;

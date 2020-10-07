@@ -11,6 +11,9 @@
         <img src="../assets/img/woman.png" alt="masked woman with arms crossed">
       </div>
     </div>
+    <img class="main-virus" src="../assets/img/virus.png" alt="virus icon">
+    <img class="right-virus" src="../assets/img/virus.png" alt="virus icon">
+    <img class="left-virus" src="../assets/img/virus.png" alt="virus icon">
   </div>
 </template>
 
@@ -53,6 +56,19 @@ export default {
         position: absolute;
       }
     }
+    .main-virus{
+      width: 40% !important;
+      top: 60vH !important;
+      left: -5% !important;
+    }
+    .right-virus{
+      width: 25% !important;
+    }
+    .left-virus{
+      width: 30% !important;
+      top: 50% !important;
+      left: 80% !important;
+    }
   }
 
   //medium-large//
@@ -67,11 +83,16 @@ export default {
         width: 50% !important;
       }
     }
+    .main-virus{
+      top: 70% !important;
+    }
   }
   max-width: 100vW;
   width: 100%;
   height: 100%;
   background-color: #FFF7F5;
+  position: relative;
+  overflow: hidden;
 
   .container{
     display: flex;
@@ -132,6 +153,26 @@ export default {
         max-height: 100%;
       }
     }
+  }
+  .main-virus{
+    position: absolute;
+    width: 16%;
+    top: 60%;
+    left: 40%
+  }
+  .right-virus{
+    opacity: .1;
+    position: absolute;
+    width: 20%;
+    top: 14%;
+    right: -10%;
+  }
+  .left-virus{
+    opacity: .1;
+    position: absolute;
+    width: 15%;
+    bottom: 1%;
+    left: -7%;
   }
 }
 

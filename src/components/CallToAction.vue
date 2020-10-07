@@ -66,7 +66,7 @@ export default {
           }
           .buynow{
             margin-top: 10px !important;
-            width: 70% !important;
+            width: 100% !important;
           }
         }
         img{

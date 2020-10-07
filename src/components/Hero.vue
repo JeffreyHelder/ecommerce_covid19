@@ -33,6 +33,7 @@ export default {
   color: black;
 }
 .hero{
+  margin-bottom: 50px;
     //mobile-medium//
   @media only screen and (max-width: 914px) {
     height: 100vH !important;

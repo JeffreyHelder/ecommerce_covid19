@@ -315,8 +315,8 @@ export default {
               }
             }
             img{
-              max-width: 100%;
-              max-height: 60%;
+              width: 35%;
+              align-self: center;
             }
           }
         }

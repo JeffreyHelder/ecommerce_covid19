@@ -104,7 +104,7 @@ export default {
         }
         ul {
           width: 100% !important;
-          max-width: 400px;
+          max-width: 200px;
           li a img{
             width: 100% !important;
           }

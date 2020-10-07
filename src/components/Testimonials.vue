@@ -11,6 +11,10 @@
           <p>{{ testimonial.description }}</p>
           <p>{{ testimonial.name }}</p>
         </div>
+        <img class="background" src="../assets/img/Bg.png" alt="background color">
+        <img class="active-quote" src="../assets/img/quote.png" alt="quote mark">
+        <img class="left-quote" src="../assets/img/quote.png" alt="quote mark">
+        <img class="right-quote" src="../assets/img/quote.png" alt="quote mark">
       </div>
       <div class="carouselButtons">
         <ul>
@@ -65,7 +69,20 @@ export default {
   width: 100%;
   height: 100%;
   position: relative;
+  margin-bottom: 100px;
 
+  
+      
+ @media only screen and (max-width: 915px) {
+    .left-quote, .right-quote, .active-quote{
+      display: none;
+    }
+    .background{
+      left: 120% !important;
+      margin-top: -175px;
+      margin-left: -175px;
+    }
+ }
   //medium-large//
   @media only screen and (max-width: 1100px) {
     .container{
@@ -73,11 +90,8 @@ export default {
       .testimonials{
         justify-content: flex-start !important;
         width: 100% !important;
-        .product-box{
+        .testimonial-box{
           width: 45% !important;
-          .image{
-            width: 350px !important;
-          }
           .info{
             width: 325px !important;
           }
@@ -124,15 +138,13 @@ export default {
       height: 300px;
       width: 100%;
       max-width: 1290px;
-      background-image: url(/img/Bg.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: contain;
       display: flex;
       flex-direction: row;
+      position: relative;
       justify-content: space-between;
       align-items: center;
       overflow-x: scroll;
+      overflow-y: hidden;
       &::-webkit-scrollbar {
           background: transparent;  /* Optional: just make scrollbar invisible */
       }
@@ -144,11 +156,38 @@ export default {
         align-items: center;
         img{
           width: 30%;
+          align-self: center;
+          justify-self: center;
         }
         p{
           font-size: .8rem;
           margin-bottom: 5px;
         }
+      }
+      .background{
+        position: absolute;
+        width: 350px;
+        top: 50%;
+        left: 50%;
+        margin-top: -175px;
+        margin-left: -175px;
+        z-index: -1;
+      }
+      .active-quote, .left-quote, .right-quote {
+        position: absolute;
+        top: 10px;
+      }
+      .left-quote, .right-quote{
+        opacity: .25;
+      }
+      .active-quote{
+        left: 55%;
+      }
+      .left-quote{
+        left: 25%;
+      }
+      .right-quote{
+        right: 5%;
       }
     }
     .carouselButtons{

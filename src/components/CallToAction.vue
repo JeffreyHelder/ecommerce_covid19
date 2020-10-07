@@ -14,6 +14,7 @@
         <img src="../assets/img/Kit.png" alt="Corona Health Protection Safety Kit">
       </div>
     </div>
+    <img class="right-virus" src="../assets/img/virus.png" alt="virus icon">
   </div>
 </template>
 
@@ -39,6 +40,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 1500px;
+  position: relative;
 
   // mobile-small //
   @media only screen and (max-width: 914px) {
@@ -72,6 +74,11 @@ export default {
           max-width: 286px !important;
         }
       }
+    }
+    .right-virus{
+      width: 25% !important;
+      top: -15% !important;
+      right: -14% !important;
     }
   }
 
@@ -162,6 +169,14 @@ export default {
         max-height: 95%;
       }
     }
+  }
+  .right-virus{
+    opacity: .1;
+    position: absolute;
+    width: 12%;
+    top: -25%;
+    right: -5%;
+    z-index: -1;
   }
 }
 

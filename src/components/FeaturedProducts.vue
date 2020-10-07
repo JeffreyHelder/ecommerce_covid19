@@ -34,6 +34,8 @@
         <button>View All Products</button>
       </div>
     </div>
+    <img class="right-virus" src="../assets/img/virus.png" alt="virus icon">
+    <img class="left-virus" src="../assets/img/virus.png" alt="virus icon">
   </div>
 </template>
 
@@ -125,6 +127,7 @@ export default {
   max-width: 100vW;
   width: 100%;
   height: 100%;
+  position: relative;
 
   // mobile-small //
   @media only screen and (max-width: 914px) {
@@ -143,6 +146,13 @@ export default {
         }
       }
     }
+   .left-virus{
+    opacity: .1;
+    position: absolute;
+    width: 30% !important;
+    bottom: 0% !important;
+    left: -22% !important;
+  }
   }
 
   //medium-large//
@@ -326,6 +336,20 @@ export default {
         cursor: pointer;
       }
     }
+  }
+  .right-virus{
+    opacity: .1;
+    position: absolute;
+    width: 18%;
+    top: 0;
+    right: -10%;
+  }
+  .left-virus{
+    opacity: .1;
+    position: absolute;
+    width: 14%;
+    bottom: 60%;
+    left: -8%;
   }
 }
 

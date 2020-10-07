@@ -20,6 +20,7 @@
         </ul>
       </div>
     </div>
+    <img class="left-virus" src="../assets/img/virus.png" alt="virus icon">
   </div>
 </template>
 
@@ -63,6 +64,7 @@ export default {
   max-width: 100vW;
   width: 100%;
   height: 100%;
+  position: relative;
 
   //medium-large//
   @media only screen and (max-width: 1100px) {
@@ -81,6 +83,11 @@ export default {
           }
         }
       }
+    }
+    .left-virus{
+      width: 25% !important;
+      top: 0;
+      left: -10%;
     }
   }
 
@@ -165,6 +172,13 @@ export default {
         }
       }
     }
+  }
+  .left-virus{
+    opacity: .1;
+    position: absolute;
+    width: 20%;
+    top: 0;
+    left: -10%;
   }
 }
 

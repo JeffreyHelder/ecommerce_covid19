@@ -52,6 +52,9 @@
     <div class="copyright">
       <p>&#169; Copyright, Company, 2020</p>
     </div>
+    <img class="mid-virus" src="../assets/img/virus.png" alt="virus icon">
+    <img class="right-virus" src="../assets/img/virus.png" alt="virus icon">
+    <img class="left-virus" src="../assets/img/virus.png" alt="virus icon">
   </div>
 </template>
 
@@ -155,6 +158,19 @@ export default {
           }
         }
       }
+    }
+    .mid-virus{
+      width: 20% !important;
+    }
+    .right-virus{
+      width: 15%  !important;
+      bottom: 0  !important;
+      right: -5%;
+    }
+    .left-virus{
+      width: 20%  !important;
+      top: 10%  !important;
+      left: 90%  !important;
     }
   }
 
@@ -292,6 +308,28 @@ export default {
       font-weight: 200;
       margin: 0;
     }
+  }
+  .mid-virus{
+    opacity: .1;
+    position: absolute;
+    width: 10%;
+    top: 62%;
+    left: 20%;
+    z-index: -1;
+  }
+  .right-virus{
+    opacity: .1;
+    position: absolute;
+    width: 10%;
+    bottom: 10%;
+    right: -5%;
+  }
+  .left-virus{
+    opacity: .1;
+    position: absolute;
+    width: 8%;
+    top: 0;
+    left: -3%;
   }
 }
 </style>

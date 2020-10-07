@@ -81,7 +81,7 @@ export default {
         align-items: center;
         justify-content: space-between;
         height: 50vH;
-        margin-top: 100px;
+        margin-top: 60px;
         list-style: none;
         padding: 0;
         margin-bottom: 30px;
@@ -114,7 +114,7 @@ export default {
         font-weight: 500;
         color: white;
         border: 4px solid white;
-        margin-bottom: 40px;
+        margin-bottom: 120px;
       }
     }
   }
@@ -162,6 +162,7 @@ export default {
     max-width: 1600px;
 
     .logo{
+      align-self: flex-start;
       max-width: 90%;
       max-height: 90%;
     } 
@@ -182,6 +183,9 @@ export default {
             text-decoration: none;
             color: #3A393E;
             padding: 10px 24px;
+            &:hover{
+              color: #FF6D33;
+            }
           }
           .cart {
             padding: 0 !important;

@@ -287,6 +287,11 @@ export default {
   .copyright{
     width: 100vW;
     height: 35px;
+    p{
+      font-size: .6rem;
+      font-weight: 200;
+      margin: 0;
+    }
   }
 }
 </style>

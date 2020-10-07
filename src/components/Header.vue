@@ -50,9 +50,8 @@ export default {
   @media only screen and (max-width: 914px) {
     .container{
       width: 95% !important;
-      margin: 0 !important;
+      margin: 0 2.5%!important;
       height: 45px !important;
-      position: fixed;
       padding-top: 10px !important;
       z-index: 999;
       .menu-toggle {
@@ -95,8 +94,8 @@ export default {
           }
           .cart{
             padding: 0;
-            height: 40px !important;
-            width: 44px !important;
+            height: 35px !important;
+            width: 38px !important;
             background-color: white;
             display: flex;
             align-items: center;
@@ -132,8 +131,9 @@ export default {
             padding: 10px 18px !important;
           }
           .cart{
-            height: 40px !important;
-            width: 44px !important;
+            height: 30px !important;
+            width: 34px !important;
+            margin-right: 20px;
           }
         }
       } 
@@ -147,8 +147,8 @@ export default {
   font-size: .8rem;
   max-width: 100vW;
   width: 100%;
-  height: 100%;
-  position: relative;
+  position: fixed;
+  background-color: #FFF7F5;
   z-index: 999;
 
   .container{
@@ -156,14 +156,14 @@ export default {
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 85%;
     height: 65px;
     max-width: 1600px;
 
     .logo{
-      max-width: 100%;
-      max-height: 100%;
+      max-width: 90%;
+      max-height: 90%;
     } 
     .top-nav, .top-nav ul, .top-nav ul li {
       display: flex;
@@ -184,16 +184,16 @@ export default {
             padding: 10px 24px;
           }
           .cart {
-            padding: 0;
-            height: 50px;
-            width: 54px;
+            padding: 0 !important;
+            height: 35px;
+            width: 38px;
             background-color: white;
             display: flex;
             align-items: center;
             justify-content: center;
             img{
-              width: 16px;
-              height: 17px;
+              width: 14px;
+              height: 15px;
             }
           }
         }

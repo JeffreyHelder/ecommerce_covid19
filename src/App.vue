@@ -2,6 +2,7 @@
   <Header />
   <Hero />
   <ProductGroup />
+  <FeaturedProducts />
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Footer />
@@ -9,9 +10,10 @@
 
 <script>
 import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
 import Hero from './components/Hero.vue'
 import ProductGroup from './components/ProductGroup.vue'
+import FeaturedProducts from './components/FeaturedProducts.vue'
+import Footer from './components/Footer.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -21,7 +23,8 @@ export default {
     Header,
     Footer,
     Hero,
-    ProductGroup
+    ProductGroup,
+    FeaturedProducts
   }
 }
 </script>

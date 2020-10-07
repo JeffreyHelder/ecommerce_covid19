@@ -5,8 +5,6 @@
   <FeaturedProducts />
   <CTA />
   <Testimonials />
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Footer />
 </template>
 
@@ -18,12 +16,10 @@ import FeaturedProducts from './components/FeaturedProducts.vue'
 import CTA from './components/CallToAction.vue'
 import Testimonials from './components/Testimonials.vue'
 import Footer from './components/Footer.vue'
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     Header,
     Hero,
     ProductGroup,
@@ -35,7 +31,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+button{
+  transition: .35s;
+  &:hover{
+    background-color: white !important;
+    color: #ff6d33 !important;
+    border-color: #ff6d33 !important;
+  }
+}
 body{
   margin: 0;
 }

@@ -4,6 +4,7 @@
   <ProductGroup />
   <FeaturedProducts />
   <CTA />
+  <Testimonials />
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Footer />
@@ -15,6 +16,7 @@ import Hero from './components/Hero.vue'
 import ProductGroup from './components/ProductGroup.vue'
 import FeaturedProducts from './components/FeaturedProducts.vue'
 import CTA from './components/CallToAction.vue'
+import Testimonials from './components/Testimonials.vue'
 import Footer from './components/Footer.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -27,6 +29,7 @@ export default {
     ProductGroup,
     FeaturedProducts,
     CTA,
+    Testimonials,
     Footer
   }
 }

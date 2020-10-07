@@ -181,7 +181,7 @@ export default {
             font-weight: 500;
             text-decoration: none;
             color: #3A393E;
-            padding: 10px 25px;
+            padding: 10px 24px;
           }
           .cart {
             padding: 0;

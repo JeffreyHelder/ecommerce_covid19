@@ -1,6 +1,7 @@
 <template>
   <Header />
   <Hero />
+  <ProductGroup />
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <Footer />
@@ -10,6 +11,7 @@
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import Hero from './components/Hero.vue'
+import ProductGroup from './components/ProductGroup.vue'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -18,7 +20,8 @@ export default {
     HelloWorld,
     Header,
     Footer,
-    Hero
+    Hero,
+    ProductGroup
   }
 }
 </script>

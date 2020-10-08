@@ -12,7 +12,6 @@ HTML
 SCSS
 JS
 VueJS
-lint
 ```
 Installation
 ```bash
@@ -43,3 +42,5 @@ https://ui8.net/the-shopify-ninja-1f8e09/products/ecommerce-ui-kit-to-fight-agai
 Development
 
 [**Jeffrey Helder | Just Some Guy**](http://www.jeffreyhelder.com/)
+
+[click here to see the live site](http://jeffreyhelder.com/ecommerceCovid19/index.html)
